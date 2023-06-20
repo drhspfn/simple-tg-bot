@@ -39,8 +39,11 @@ class Table_News(Base):
             )
 
 ```
+Create a database, put it in the right place and specify the path to it during initialization.
 
-
+Variables and columns are best pressed the same way.
+An example of a table `news` that matches the class `Table_News`:
+![example](https://i.imgur.com/52JeAZZ.png)
 
 # Bot initialization example
 ```python
