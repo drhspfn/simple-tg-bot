@@ -65,8 +65,7 @@ class APP:
     def _load_config(self):
         if not os.path.exists(self.config_path):
             default_config = {
-                "bot_token": "Bot Token Here. From @BotFather",
-                "subscribe_chat_ids": []
+                "bot_token": "Bot Token Here. From @BotFather"
             }
             logging.log(logging.ERROR, "Config file was not found. It was re-created. Replace the necessary data in it")
             with open(self.config_path, "w") as file:
